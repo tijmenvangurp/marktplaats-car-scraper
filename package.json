@@ -1,0 +1,21 @@
+{
+  "name": "marktplaats-car-scraper",
+  "version": "1.0.0",
+  "description": "Given a list of url's for marktplaats cars this module generates a csv file with the info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "scraper",
+    "marktplaats",
+    "cars"
+  ],
+  "author": "Tijmen van Gurp",
+  "license": "ISC",
+  "dependencies": {
+    "json2csv": "^4.3.2",
+    "scrape-it": "^5.1.1"
+  }
+}
